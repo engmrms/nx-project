@@ -1,11 +1,15 @@
+import { Button } from 'mada-design-system';
 import NxWelcome from './nx-welcome';
 
-import { Route, Routes, Link } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 
 export function App() {
   return (
     <div>
       <NxWelcome title="@nx-project/web" />
+      <Button variant="default" colors={'neutral'} size={'sm'}>
+        Click me
+      </Button>
 
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}

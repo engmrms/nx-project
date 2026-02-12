@@ -1,0 +1,12 @@
+Tasks:
+Pipline with azure
+.env files
+Shared Components (libs)
+Shared Localization (libs)
+Shared Services (libs)
+Shared Utils (libs)
+Shared Models (libs)
+Shared Interfaces (libs)
+Shared Enums (libs)
+Shared Constants (libs)
+husky (pre-commit hooks)
