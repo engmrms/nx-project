@@ -1,5 +1,8 @@
 {
   "name": "@nx-project/admin",
   "version": "0.0.1",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@nx-project/ui": "workspace:*"
+  }
 }

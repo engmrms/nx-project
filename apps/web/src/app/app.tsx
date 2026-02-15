@@ -1,11 +1,13 @@
 import { Button } from 'mada-design-system';
 import NxWelcome from './nx-welcome';
 
+import { Dot, PageHeader } from '@nx-project/ui';
 import { Link, Route, Routes } from 'react-router-dom';
-
 export function App() {
   return (
     <div>
+      <PageHeader title="Page Header" description="This is the page header" />
+      <Dot className="size-space-06" />
       <NxWelcome title="@nx-project/web" />
       <Button variant="default" colors={'neutral'} size={'sm'}>
         Click me
