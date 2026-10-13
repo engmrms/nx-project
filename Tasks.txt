@@ -18,3 +18,15 @@ reset nx daemon => nx reset
 to show projects => nx show projects
 to remove project => nx g @nx/workspace:remove <project-name>
 sudo nx generate @nx/workspace:remove --projectName=@nx-project/shared --forceRemove=true --no-interactive
+
+
+https://nx.dev/docs/features/run-tasks
+
+npx create-nx-workspace@latest <project-name> --pm pnpm
+
+
+nx graph --affected
+
+nx generate @nx/workspace:ci-workflow [options]
+short:
+nx g ci-workflow
